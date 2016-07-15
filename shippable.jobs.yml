@@ -1,4 +1,13 @@
 jobs:
+  - name: job3
+    type: manifest
+    steps:
+      - GET: res6
+      - GET: job1
+      - GET: res7
+      - GET: res5
+      - GET: res8
+
   - name: job1
     type: manifest
     steps:
@@ -18,12 +27,3 @@ jobs:
       - PUT: res8
       - PUT: res5
       - PUT: res6
-
-  - name: job3
-    type: manifest
-    steps:
-      - GET: res6
-      - GET: job1
-      - GET: res7
-      - GET: res5
-      - GET: res8
