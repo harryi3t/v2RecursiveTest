@@ -1,0 +1,29 @@
+jobs:
+  - name: job1
+    type: manifest
+    steps:
+      - GET: res3
+      - GET: res1
+      - GET: res2
+      - GET: job1-trigger
+      - PUT: res6
+      - PUT: job3
+      - PUT: res5
+
+  - name: job2
+    type: manifest
+    steps:
+      - GET: res1
+      - GET: res4
+      - PUT: res8
+      - PUT: res5
+      - PUT: res6
+
+  - name: job3
+    type: manifest
+    steps:
+      - GET: res6
+      - GET: job1
+      - GET: res7
+      - GET: res5
+      - GET: res8

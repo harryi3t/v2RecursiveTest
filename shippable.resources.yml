@@ -1,0 +1,65 @@
+resources:
+  - name: res1
+    type: image
+    integration: dockerhub
+    pointer:
+      sourceName: "library/busybox"
+      isPull: true
+    initialVersion:
+      versionName: latest.1
+  - name: res2
+    type: image
+    integration: dockerhub
+    pointer:
+      sourceName: "library/busybox"
+      isPull: true
+    initialVersion:
+      versionName: latest.1
+  - name: res3
+    type: image
+    integration: dockerhub
+    pointer:
+      sourceName: "library/busybox"
+      isPull: true
+    initialVersion:
+      versionName: latest.1
+  - name: res4
+    type: image
+    integration: dockerhub
+    pointer:
+      sourceName: "library/busybox"
+      isPull: true
+    initialVersion:
+      versionName: latest.1
+  - name: res5
+    type: image
+    integration: dockerhub
+    pointer:
+      sourceName: "library/busybox"
+      isPull: true
+    initialVersion:
+      versionName: latest.1
+  - name: res6
+    type: image
+    integration: dockerhub
+    pointer:
+      sourceName: "library/busybox"
+      isPull: true
+    initialVersion:
+      versionName: latest.1
+  - name: res7
+    type: image
+    integration: dockerhub
+    pointer:
+      sourceName: "library/busybox"
+      isPull: true
+    initialVersion:
+      versionName: latest.1
+  - name: res8
+    type: image
+    integration: dockerhub
+    pointer:
+      sourceName: "library/busybox"
+      isPull: true
+    initialVersion:
+      versionName: latest.1
