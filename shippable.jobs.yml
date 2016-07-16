@@ -2,6 +2,7 @@ jobs:
   - name: job3
     type: manifest
     steps:
+      - TASK: managed
       - GET: res6
       - GET: job1
       - GET: res7
@@ -11,6 +12,7 @@ jobs:
   - name: job1
     type: manifest
     steps:
+      - TASK: managed
       - GET: res3
       - GET: res1
       - GET: res2
@@ -22,6 +24,7 @@ jobs:
   - name: job2
     type: manifest
     steps:
+      - TASK: managed
       - GET: res1
       - GET: res4
       - PUT: res8
